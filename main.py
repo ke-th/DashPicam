@@ -5,6 +5,7 @@ from picamera2 import Picamera2, MappedArray
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
 import cv2
+import numpy as np
 
 # Configuration
 VIDEO_DIR = "./dashcam_videos"
